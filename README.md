@@ -25,11 +25,11 @@ Interact with a local Flakechain flake-wallet-cli via the Chrome or Chromium bro
 
 To build this extension from source:
 
-    git clone https://github.com/flakechain/flake-chrome
-
-    cd flake-chrome
-
-    ./build-chrome.sh
+```bash
+git clone https://github.com/flakechain/flake-chrome
+cd flake-chrome
+./build-chrome.sh
+```
 
 Install in Chrome:
 
@@ -39,4 +39,4 @@ Install in Chrome:
 
 3) Load Unpacked Extension located at:
 
-    .../flake-chrome/build/chrome
+`.../flake-chrome/build/chrome`
